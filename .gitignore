@@ -7,3 +7,5 @@ static/
 activate.bash
 
 notebook.ipynb
+
+.ipynb_checkpoints/
