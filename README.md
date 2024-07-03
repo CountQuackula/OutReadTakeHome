@@ -2,6 +2,8 @@
 Take home assessment for the Outread AI startup final round of interview/s involving the usage of unsupervised AI techniques to identify clusters of research.
 
 To run:
+First retrieve pdfs from: https://drive.google.com/drive/folders/1Sbk_kYCn2vngGJ3cGSInMMZUqzfLMdnt
+Then paste into a dir at root named 'Docs/'
 Use requirements.txt to install all dependencies in a venv ideally. Next run 'python main.py' and 5 graphs will be generated
 as well as relevent infromation printed to CLI.
 
