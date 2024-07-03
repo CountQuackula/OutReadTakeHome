@@ -1,6 +1,9 @@
 # OutReadTakeHome
 Take home assessment for the Outread AI startup final round of interview/s involving the usage of unsupervised AI techniques to identify clusters of research.
 
+To run:
+Use requirements.txt to install all dependencies in a venv ideally. Next run 'python main.py' and 5 graphs will be generated
+as well as relevent infromation printed to CLI.
 
 Due to a bit of difficulty getting papers from the links in the .xslx loaded them into a Docs/ dir in local machine
 and ran clustering from there. Sadly due to some file name lenght limits couldn't upload this to the repo. Also faced challenges with identifying and extracting the abstracts in cases where it was not clearly defined by an 'Abstract:'

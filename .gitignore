@@ -1,5 +1,9 @@
 Docs/
+
 *.ipynb
+
 static/
+
 activate.bash
+
 notebook.ipynb

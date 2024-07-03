@@ -19,8 +19,8 @@ def main():
         plot_cluster(label_set[20], vec, data_from_folder)
         #print('Hello World!')
 
-        #for i, title in enumerate(data_from_folder):
-            #print(f'Paper: "{title[0]}" belongs to cluster {label_set[20][i] + 1}')
+        for i, title in enumerate(data_from_folder):
+            print(f'Paper: "{title[0]}" belongs to cluster {label_set[20][i] + 1}')
         
         #reverse the label-cluster relationship
         #print(f'Number of clusters identified as optimal: 21')
@@ -33,8 +33,8 @@ def main():
             #print('Hello World!')
             freq_clust[label_set[20][i] + 1] += 1
         
-        #for key, val in freq_clust.items():
-            #print(f'Cluster {key} had {val} paper/s.')
+        for key, val in freq_clust.items():
+            print(f'Cluster {key} had {val} paper/s.')
         
         for key, val in freq_clust.items():
             print(f'Cluster: {key}, with {val} paper/s had the following terms/topics:')
